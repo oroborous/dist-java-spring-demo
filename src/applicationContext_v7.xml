@@ -8,14 +8,14 @@
     <context:property-placeholder location="classpath:sport.properties"/>
 
     <!-- Define your beans here -->
-    <bean id="myFortuneService" class="edu.wctc.coachdemo.v7.HappyFortuneService">
+    <bean id="myFortuneService" class="edu.wctc.coachdemo.service.HappyFortuneService">
     </bean>
 
     <bean id="myCricketCoach" class="edu.wctc.coachdemo.v7.CricketCoach">
         <!-- Setter injection -->
         <property name="fortuneService" ref="myFortuneService"/>
 
-        <!-- Inject literal values -->
+        <!-- Inject literal values from properties file -->
         <property name="emailAddress" value="${c1.email}"/>
         <property name="team" value="${c1.team}"/>
     </bean>

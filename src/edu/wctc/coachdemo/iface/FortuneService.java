@@ -1,4 +1,4 @@
-package edu.wctc.coachdemo.v6;
+package edu.wctc.coachdemo.iface;
 
 /**
  * Dependency interface

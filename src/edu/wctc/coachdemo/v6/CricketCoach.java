@@ -1,6 +1,9 @@
 package edu.wctc.coachdemo.v6;
 
-public class CricketCoach implements Coach {
+import edu.wctc.coachdemo.iface.Coach2;
+import edu.wctc.coachdemo.iface.FortuneService;
+
+public class CricketCoach implements Coach2 {
     private FortuneService fortuneService;
 
     // Add new fields for email address and team name

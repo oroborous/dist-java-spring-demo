@@ -1,6 +1,9 @@
 package edu.wctc.coachdemo.v8;
 
-public class TrackCoach implements Coach {
+import edu.wctc.coachdemo.iface.Coach2;
+import edu.wctc.coachdemo.iface.FortuneService;
+
+public class TrackCoach implements Coach2 {
     private FortuneService fortuneService;
 
     public TrackCoach(FortuneService fortuneService) {

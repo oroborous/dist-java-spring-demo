@@ -1,5 +1,7 @@
 package edu.wctc.coachdemo.v2;
 
+import edu.wctc.coachdemo.iface.Coach;
+
 public class BaseballCoach implements Coach {
     @Override
     public String getDailyWorkout() {

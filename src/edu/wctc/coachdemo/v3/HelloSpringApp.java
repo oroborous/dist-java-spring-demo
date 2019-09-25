@@ -1,11 +1,14 @@
 package edu.wctc.coachdemo.v3;
 
+import edu.wctc.coachdemo.iface.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Inversion of control (IoC)
  *
  * Create and manage objects dynamically
+ *
+ * Application asks Spring, "give me a Coach object"
  */
 public class HelloSpringApp {
 

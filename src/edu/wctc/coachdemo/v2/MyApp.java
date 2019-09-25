@@ -1,7 +1,7 @@
 package edu.wctc.coachdemo.v2;
 
 
-import org.w3c.dom.ls.LSOutput;
+import edu.wctc.coachdemo.iface.Coach;
 
 public class MyApp {
     public static void main(String[] args) {

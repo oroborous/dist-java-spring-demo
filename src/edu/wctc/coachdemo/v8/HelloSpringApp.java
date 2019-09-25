@@ -1,5 +1,6 @@
 package edu.wctc.coachdemo.v8;
 
+import edu.wctc.coachdemo.iface.Coach2;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {
@@ -8,8 +9,8 @@ public class HelloSpringApp {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext_v8.xml");
 
         // retrieve beans from Spring container
-        Coach theCoach = context.getBean("myCoach", Coach.class);
-        Coach alphaCoach = context.getBean("myCoach", Coach.class);
+        Coach2 theCoach = context.getBean("myCoach", Coach2.class);
+        Coach2 alphaCoach = context.getBean("myCoach", Coach2.class);
 
         // check if they are the same bean
         boolean sameObject = theCoach == alphaCoach;

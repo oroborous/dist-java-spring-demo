@@ -4,6 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define your beans here -->
-    <bean id="myCoach" class="edu.wctc.coachdemo.v3.ChessCoach">
+    <bean id="myCoach" class="edu.wctc.coachdemo.v3.TrackCoach">
     </bean>
 </beans>

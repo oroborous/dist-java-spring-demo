@@ -1,4 +1,6 @@
-package edu.wctc.coachdemo.v6;
+package edu.wctc.coachdemo.service;
+
+import edu.wctc.coachdemo.iface.FortuneService;
 
 /**
  * Dependency interface class

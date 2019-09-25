@@ -1,5 +1,6 @@
 package edu.wctc.coachdemo.v5;
 
+import edu.wctc.coachdemo.iface.Coach2;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {
@@ -8,7 +9,7 @@ public class HelloSpringApp {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext_v5.xml");
 
         // retrieve bean from Spring container
-        Coach theCoach = context.getBean("myCricketCoach", Coach.class);
+        Coach2 theCoach = context.getBean("myCricketCoach", Coach2.class);
 
         // call methods on the bean
         System.out.println(theCoach.getDailyWorkout());

@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define your beans here -->
-    <bean id="myFortuneService" class="edu.wctc.coachdemo.v4.HappyFortuneService">
+    <bean id="myFortuneService" class="edu.wctc.coachdemo.service.HappyFortuneService">
     </bean>
 
     <bean id="myCoach" class="edu.wctc.coachdemo.v4.TrackCoach">

@@ -1,5 +1,6 @@
 package edu.wctc.coachdemo.v9;
 
+import edu.wctc.coachdemo.iface.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {

@@ -1,6 +1,6 @@
-package edu.wctc.coachdemo.v9;
+package edu.wctc.coachdemo.iface;
 
-public interface Coach {
+public interface Coach2 {
     public String getDailyWorkout();
 
     public String getDailyFortune();
