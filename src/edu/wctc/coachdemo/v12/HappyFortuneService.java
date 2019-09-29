@@ -1,4 +1,4 @@
-package edu.wctc.coachdemo.v11;
+package edu.wctc.coachdemo.v12;
 
 import edu.wctc.coachdemo.iface.FortuneService;
 import org.springframework.stereotype.Component;

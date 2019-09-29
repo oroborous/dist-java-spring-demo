@@ -17,7 +17,7 @@ public class HelloSpringApp {
 
         // print result
         System.out.println("Pointing to same object? " + sameObject);
-        // print memory addresses of objects
+        // print memory addresses of objects using implicit call to toString method
         System.out.println("Memory location of theCoach: " + theCoach);
         System.out.println("Memory location of alphaCoach: " + alphaCoach);
 

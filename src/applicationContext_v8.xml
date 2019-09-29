@@ -7,6 +7,8 @@
         <bean id="myFortuneService" class="edu.wctc.coachdemo.service.HappyFortuneService">
         </bean>
 
+        <!-- Default scope is singleton (one bean per application) -->
+        <!-- Prototype scope means a new bean is created whenever you request one -->
         <bean id="myCoach" class="edu.wctc.coachdemo.v8.TrackCoach" scope="prototype">
             <constructor-arg ref="myFortuneService"/>
         </bean>

@@ -8,6 +8,8 @@ public class HelloSpringApp {
         // load the Spring config file
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext_v9.xml");
 
+        // Notice when bean lifecycle methods are called?
+
         // retrieve beans from Spring container
         Coach theCoach = context.getBean("myCoach", Coach.class);
 

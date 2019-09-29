@@ -7,13 +7,16 @@ public class TrackCoach implements Coach2 {
     private FortuneService fortuneService;
 
     public TrackCoach(FortuneService fortuneService) {
+        System.out.println("TrackCoach: inside constructor");
         this.fortuneService = fortuneService;
     }
 
+    // In XML, this method is identified as init method
     public void doStartupStuff() {
         System.out.println("TrackCoach: doStartupStuff");
     }
 
+    // In XML, this method is identified as destroy method
     public void doCleanupStuff() {
         System.out.println("TrackCoach: doCleanupStuff");
     }

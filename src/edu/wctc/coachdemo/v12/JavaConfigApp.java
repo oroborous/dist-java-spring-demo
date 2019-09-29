@@ -1,14 +1,14 @@
-package edu.wctc.coachdemo.v11;
+package edu.wctc.coachdemo.v12;
 
 import edu.wctc.coachdemo.iface.Coach2;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class SpringApp {
+public class JavaConfigApp {
     public static void main(String[] args) {
-        // read Spring config file
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext_v11.xml");
+        // Uses the Java config class
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(CoachConfig.class);
 
-         // use default bean ID to retrieve bean from container
+        // use default bean ID to retrieve bean from container
         Coach2 theCoach = context.getBean("tennisCoach", Coach2.class);
 
         // call methods on bean
