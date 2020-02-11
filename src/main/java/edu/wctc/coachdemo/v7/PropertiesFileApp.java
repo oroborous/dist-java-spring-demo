@@ -6,7 +6,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Another option is to use setter injection, but read the literal values from
  * a separate properties file, rather than hardcode them in the XML
  *
- * Still, we can't use the Coach interface if we want to call the getters
+ * Still, we can't use the Coach interface if we want to call the getters because
+ * they're not defined in the interface
  */
 public class PropertiesFileApp {
     public static void main(String[] args) {
