@@ -1,7 +1,8 @@
 package edu.wctc.coachdemo.v1;
 
 /**
- * Main application class
+ * This simple application creates a BaseballCoach object
+ * and asks it to print you a daily workout recommendation
  */
 public class MyApp {
     public static void main(String[] args) {

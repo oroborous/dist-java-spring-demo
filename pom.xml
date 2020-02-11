@@ -16,7 +16,7 @@
     </dependencies>
 
     <build>
-        <finalName>dist-java-jdbc-demo</finalName>
+        <finalName>dist-java-spring-demo</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>

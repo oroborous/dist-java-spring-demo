@@ -3,6 +3,11 @@ package edu.wctc.coachdemo.v12;
 import edu.wctc.coachdemo.iface.Coach2;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+/**
+ * This application doesn't have an XML file at all. The configuration information is provided by a special
+ * @Configuration Java class. In that class, another annotation supplies the packages to scan for
+ * @Components.
+ */
 public class JavaConfigApp {
     public static void main(String[] args) {
         // Uses the Java config class

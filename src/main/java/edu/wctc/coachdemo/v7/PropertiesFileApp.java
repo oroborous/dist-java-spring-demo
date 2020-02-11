@@ -1,11 +1,17 @@
-package edu.wctc.coachdemo.v6;
+package edu.wctc.coachdemo.v7;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class HelloSpringApp {
+/**
+ * Another option is to use setter injection, but read the literal values from
+ * a separate properties file, rather than hardcode them in the XML
+ *
+ * Still, we can't use the Coach interface if we want to call the getters
+ */
+public class PropertiesFileApp {
     public static void main(String[] args) {
         // load the Spring config file
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext_v6.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ac7.xml");
 
         // retrieve bean from Spring container
         CricketCoach theCoach = context.getBean("myCricketCoach", CricketCoach.class);

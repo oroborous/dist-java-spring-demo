@@ -3,7 +3,11 @@ package edu.wctc.coachdemo.v14;
 import edu.wctc.coachdemo.iface.Coach2;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class JavaConfigApp {
+/**
+ * This application uses Java configuration and @Bean methods. It injects the beans with
+ * properties from a file, identified by a @PropertySource annotation.
+ */
+public class JavaConfigWithPropertiesApp {
     public static void main(String[] args) {
         // Uses the Java config class
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(CoachConfig.class);

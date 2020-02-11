@@ -4,13 +4,15 @@ import edu.wctc.coachdemo.iface.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Inversion of control (IoC)
+ * We're using Spring to perform inversion of control (IoC)
  *
- * Create and manage objects dynamically
+ * Spring creates the Coach object based on its XML configuration file
  *
  * Application asks Spring, "give me a Coach object"
+ *
+ * Not dependency injection, more service locator pattern
  */
-public class HelloSpringApp {
+public class CoachBeanApp {
 
     public static void main(String[] args) {
         // load the Spring config file
